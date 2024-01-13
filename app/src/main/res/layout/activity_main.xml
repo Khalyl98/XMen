@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity" >
+
+    
+    <EditText
+        android:id="@+id/editTextSearch"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:hint="Search"
+        android:inputType="text"/>
+        <!-- Add Spinner for search options -->
+    <Spinner
+        android:id="@+id/spinnerSearchBy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:entries="@array/search_options" />
+        <Button
+            android:id="@+id/btnSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search"/>
+
+
+<androidx.recyclerview.widget.RecyclerView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/recycler"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    />
+</LinearLayout>

@@ -1,0 +1,51 @@
+<!-- res/layout/activity_edit.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <EditText
+        android:id="@+id/editTextNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nom"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextAlias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextNom"
+        android:layout_marginTop="16dp"
+        android:hint="Alias"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextAlias"
+        android:layout_marginTop="16dp"
+        android:hint="Description"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/editTextConfrerie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextDescription"
+        android:layout_marginTop="16dp"
+        android:hint="Confrérie"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextPouvoirs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextConfrerie"
+        android:layout_marginTop="16dp"
+        android:hint="Pouvoirs"
+        android:inputType="textMultiLine" />
+
+</RelativeLayout>
