@@ -70,7 +70,7 @@ public class XMenAdapter extends RecyclerView.Adapter<XMenViewHolder>{
                     filteredData.add(item);
                 }
             }
-        }""
+        }
 
         notifyDataSetChanged();
     }
